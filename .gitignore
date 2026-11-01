@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# editores
+.vscode/
+.idea/
+
+# secretos: solo cifrados con sops
+*.env
+!*.env.example
+*.key
+*.pem
+age.txt
